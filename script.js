@@ -3,7 +3,7 @@ const timer=document.getElementById("timer");
 function currTime() {
 	let date=new Date();
 	let month=date.getMonth();
-	let day=date.getDay();
+	let day=date.getDate();
 	let year=date.getFullYear();
 
 	let hour=date.getHours();
